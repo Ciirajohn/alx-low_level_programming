@@ -13,13 +13,10 @@ int p;
 p = 0;
 while (s[p] != '\0')
 {
-
 p++;
-
 }
 
 for (p = p - 1 ; 1 >= 0; p--)
-
 {
 _putchar (s[p]);
 }
