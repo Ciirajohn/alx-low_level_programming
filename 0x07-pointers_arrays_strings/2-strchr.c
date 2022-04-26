@@ -1,7 +1,6 @@
 #include "main.h"
 /**
 *_strchr - locates a character in a string
-*
 *@s: the string to check
 *@c: the character we are looking for
 *Return: a pointer to the first occurance of the character @c
@@ -10,20 +9,19 @@
 char *_strchr(char *s, char c)
 
 {
+while (*s)
+{
+if  (*s != c)
+s++;
 
-    while (*s)
-    {
-        if  (*s != c)
-        s++;
+else
 
-       else
+return (s);
+}
 
-       return (s);
-     }
+if (c == '\0')
 
-     if (c == '\0')
-
-     return (s);
+return (s);
 
 return (0);
 
