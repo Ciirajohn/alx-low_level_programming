@@ -3,7 +3,6 @@
 *print_chessboard - prints a chessboard
 *
 *@a: the row of the array
-*
 *Rerurn: nothing
 */
 
