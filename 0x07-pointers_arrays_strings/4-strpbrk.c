@@ -1,7 +1,7 @@
 #include "main.h"
 /**
 *_strpbrk - locates the first occurrence in the string
-*@s: string to be scanned 
+*@s: string to be scanned
 *@accept:character in str1 that matches one of the characters in str2
 *Return: strings that matches any character specified in accept
 */
