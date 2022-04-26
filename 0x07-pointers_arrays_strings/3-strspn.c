@@ -1,7 +1,7 @@
 #include "main.h"
 /**
-*_strspn -  string to be  searched
-*@s: string
+*_strspn - locates  character in a string
+*@s: string to be sccaned for the character
 *@accept: This is the string containing the list of characters
 *Return: return count
 */
