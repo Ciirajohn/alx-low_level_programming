@@ -14,7 +14,7 @@ if (*s == '\0')
 return (0);
 
 
-else 
+else
 
 return (_strlen_recursion(s + 1) + 1);
 
