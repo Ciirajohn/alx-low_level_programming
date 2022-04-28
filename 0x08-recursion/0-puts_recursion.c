@@ -12,7 +12,7 @@ if (*s == '\0')
 {
 
 _putchar('\n');
-
+return;
 }
 
 
