@@ -22,7 +22,7 @@ while (count < argc)
 
 {
 
-printf("%s\n", argv[count]);
+printf("argv[%2d]; %s\n", count,  argv[count]);
 
 count++;
 }
