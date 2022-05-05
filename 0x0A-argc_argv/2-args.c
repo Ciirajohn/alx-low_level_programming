@@ -17,10 +17,13 @@ int count = 0;
 if  (argc > 0)
 
 {
+
 while (count < argc)
+
 {
 
-printf("argv[%2d]: %s\n", counter, argv[count]);
+printf("%s\n", argv[count]);
+
 count++;
 }
 }
