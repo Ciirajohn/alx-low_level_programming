@@ -12,13 +12,17 @@
 int main(int argc, char *argv[])
 
 {
-int counter;
+int count = 0;
 
-for (counter =0; counter < agrc; counter++)
+if  (argc > 0)
+
+{
+while (count < argc)
 {
 
-printf("argv[%2d]: %s\n", counter, argv[counter]);
-
+printf("argv[%2d]: %s\n", counter, argv[count]);
+count++;
+}
 }
 
 return (0);
